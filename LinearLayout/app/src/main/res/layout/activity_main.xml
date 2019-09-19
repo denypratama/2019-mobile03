@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:layout_width="match_parent"
-        android:layout_weight="3"
+        android:layout_weight="1"
         android:background="#FF6347"
         >
     </LinearLayout>
@@ -18,7 +18,7 @@
     <LinearLayout
         android:layout_height="0dp"
         android:layout_width="match_parent"
-        android:layout_weight="3"
+        android:layout_weight="1"
         android:background="#FFFFFF"
         >
     </LinearLayout>
